@@ -1,0 +1,1048 @@
+/* WRAPPERS */
+
+* {
+	box-sizing: border-box;
+}
+	body {
+		margin: 0;
+		box-sizing: border-box;
+		font-family: 'ARS Maquette','Helvetica Neue',Arial,sans-serif;
+			font-size: 14px;
+			color: #555;
+    line-height: 1.5;
+    min-height: 100vh;
+		
+	}
+
+	a {
+	text-decoration: none;
+	color: inherit;	
+		
+	}
+	ul {
+	padding: 0;	
+	margin: 0;
+	}
+	
+	ul li {
+		list-style: none;
+		display: inline-block;
+		
+	}
+
+	i {
+		display: inline-block;
+	}
+	#container {
+		
+		
+	}
+
+
+/* CLEAR FIX */
+
+ #top:after, #smalls:after,  .header-rows:after, .latest:after , .fund-details:after , .square.rect:after, #cat:after, #cat li:after, .sub-div:after,  footer>ul:after, #central:after{
+	content: '';
+	display: block;
+	clear: both;
+	
+}
+
+	
+	
+/* HEADER */	
+
+
+
+#news {
+	color: #fff;
+}
+
+#logo {
+	
+float: left;
+height: 80px;	
+display: none;
+width: 106px;
+
+text-align: center;
+background: linear-gradient(to bottom right,#c09,#f42 85%);
+
+}
+
+#logo img {
+	height: 16px;
+	width: 66px;
+	margin: 32px auto;
+		
+}
+
+#last-item {
+	
+	display: none;
+}
+
+.header-rows li {
+	margin: 0 8px;
+}
+
+.header-rows:nth-child(2) {
+	background: #131313;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 32px;
+    max-height: 32px;
+	color: rgba(255,255,255,.6);
+	overflow: hidden;
+	padding: 0 10px;
+}
+	
+
+.header-rows:last-child {
+	font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #AAA;
+    display: block;
+    height: 48px;
+    letter-spacing: .04em;
+    line-height: 1;
+    padding: 18px 10px 0;
+	
+}
+
+
+.header-rows:last-child .right {
+	opacity: 0.25;
+}
+
+	
+	
+.header-rows .left {
+	
+float: left;	
+	
+}	
+	
+.header-rows .right {
+	float: right;
+}	
+
+.top-icon {
+	background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970) 1248px 1248px no-repeat;
+    width: 16px;
+    height: 16px;
+   
+	display: block;
+
+}
+
+
+#icon-1 {
+	
+ background-position: -256px -256px;		
+	
+}
+
+#icon-2 {
+	
+ background-position: -960px -960px;		
+}
+
+#icon-3 {
+	
+ background-position: -512px -512px;		
+}
+
+#icon-4 {
+	
+ background-position: -560px -560px;		
+}
+
+
+#icon-5 {
+	
+ background-position: -800px -800px;		
+}
+
+#toggle span {
+	
+	
+    background-color: #F42;
+    display: block;
+    height: 2px;
+    margin-bottom: 4px;
+    
+    
+    width: 20px;
+	
+}
+
+/* TOP DIV */
+
+
+#top {
+background: #eaecef;	
+height: 75vh;
+    max-height: 560px;
+	padding: 5px;
+	
+	
+}
+
+
+	
+
+
+#big {
+	width: 66.66%;
+	background: #80f442;
+	height: 100%;
+	background: linear-gradient(to right bottom, rgba(224, 81, 15, 1), rgba(22, 22, 22, 0)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Older-Person-796x398.jpg);
+	background-size: cover;
+	float: left;
+	position: relative;
+	
+	
+}	
+
+#date {
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	display: none;
+	color: #fff;
+	
+}
+
+#big-logo {
+background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;	
+position: absolute;
+top: 20px;
+left: 20px;
+z-index: 5;
+width: 100%;
+max-width:50%;
+height: 100%;
+max-height: 112px;	
+display: none;
+	
+}
+
+
+.details {
+position: absolute;
+bottom: 7px;
+left: 7px;	
+font-size: inherit;
+	
+}
+
+
+.small .details {
+	font-size: 0.65em;
+	
+}
+
+.top-h2 {
+color: #fff;	
+font-weight: 500;
+    letter-spacing: .04em;
+    line-height: 1.5;
+font-size: 1em;	
+margin: 0;
+}
+
+.top-h1 {
+color: #fff;
+font-size: 3em;
+    line-height: 1;
+font-weight: 700;
+font-family: Avalon,sans-serif;	
+margin: 0;
+	
+}
+
+.top-h3 {
+font-size: 0.9em;
+    line-height: 20px;
+color: rgba(255,255,255,.6);
+
+	
+}
+
+
+
+.clock {
+background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970") no-repeat;
+    
+	background-position: -160px -160px;
+    width: 16px;
+    height: 16px;	
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin: 0 5px;
+}
+
+.fork {
+	
+	background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970") no-repeat ;
+    
+	
+    width: 16px;
+    height: 16px;	
+	display: inline-block;
+	    background-position: -864px -864px;
+	vertical-align: text-bottom;
+	margin: 0 5px;
+}
+#smalls {
+	
+width: 33.33%;
+height: 100%;
+float: right;
+
+}
+
+.small {
+	
+	height: 50%;
+	padding-left: 5px;
+	position: relative;
+	
+	
+	
+}
+
+.small:first-child {
+background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/vintage-robot-796x398.jpg);
+background-position: center center;
+	background-size: cover;
+	background-clip: content-box;
+	padding-bottom: 5px;
+	
+}
+
+.small:last-child {
+background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-796x398.jpg);	
+background-position: center center;
+background-size: cover;
+background-clip: content-box;	
+	
+}
+
+
+
+/* CENTRAL DIV */
+
+
+#central {
+	
+
+margin: 35px auto;
+
+
+
+}
+
+#central h2, #cat h2 {
+	color: #F42;
+	font-size: 28px;
+	line-height: 1.1;
+    letter-spacing: -.015em;
+	font-weight: 700;
+	    font-family: Avalon,sans-serif;
+		margin-bottom: 24px;
+}
+	
+}
+	
+	/* latest */
+
+.latest, #cat {
+
+
+margin: 0 auto;
+	
+}	
+	
+	
+	.square {
+		
+		width: 25%;
+		height: 251px;
+		
+		
+		float: left;
+		
+		padding: 7px;
+		margin: 8px 0;
+		
+	}	
+
+	
+	.square a {
+		display: block;
+		height: 135px;
+		
+		background-position: center center;
+		background-size: cover;
+		margin-bottom: 8px;
+	}
+	
+	
+	.square h4 {
+	font-size: 16px;
+    line-height: 20px;
+    margin: 8px auto;	
+		
+	}
+	
+	.square > 	h5 {
+		
+		margin: 8px auto;	
+	}
+	
+	.funding {
+	clear: both;	
+		
+	}
+	.rect {
+		
+	
+		
+	position: relative;
+background: #fffaf8;
+height: 275px;
+			
+	}
+	
+	/* funding */
+	
+	
+	
+	.story-investmentCard-company-image {
+		
+		width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10.67px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+		
+	}
+	
+	
+	.square.rect > h4 {
+		
+	background: #F42;
+    color: #fff;
+    padding: 10.67px 16px 10.67px 84px;
+    margin: 0 !important;
+    font-size: 18px!important;
+    overflow: hidden;
+    text-overflow: ellipsis;	
+		
+	}
+	
+	.story-investmentCard-deets {
+		padding: 10.67px 16px 10.67px 84px;
+    color: #000;
+    background: rgba(255,68,34,.08);
+    margin: 0;
+			
+	}
+	
+	.story-investmentCard-deets > h4,h5 {
+	
+    margin: 0;
+			
+	}
+	
+	.fund-details {
+	margin: 16px 0;	
+		background: #fffaf8;
+		
+	}
+	
+	.fund-details a {
+		height: auto;
+		
+	}
+	
+	
+	.tag {
+		
+	background-position: -928px -928px;		
+	float: left;
+	margin: 0 12px;
+	
+	
+	}
+	
+	
+	.brief {
+		
+	background-position: -48px -48px;		
+	float: left;
+	margin: 0 12px;	
+		
+	}
+	
+	.fund-exp {
+		border-top: 1px solid rgba(255,68,34,.25);
+		padding-top: 16px;
+		margin: 0 12px;
+		clear: both;
+		
+	}
+	
+	
+	
+	
+	
+	/* the ul */
+	
+	
+	#cat > li {
+		
+		width: 33.33%;
+		height: 100%;
+		background: #FFF;
+		float: left;
+		min-height: 700px;
+		padding: 10px;
+		
+		
+	}
+	
+	
+	#cat li h2 {
+margin: 8px 0;
+		
+	}
+	
+	
+	.item-1 {
+		background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg) no-repeat;
+		
+	}
+	
+	.item-2 {
+		
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Apple-Watch-Series-3-hed-368x276.jpg);	
+		
+	}
+	
+	.item-3 {
+		
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/algae-img-001-368x276.jpg);	
+		
+	}
+	
+	
+	.item-4 {
+		
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/PETA-368x276.jpg);	
+		
+	}
+	
+	.item-5 {
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/what-the-fork-368x276.png);	
+	
+	}
+	
+	.item-6 {
+		
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/file-20170831-22397-1vtyfmc-1-368x276.jpg);	
+		
+	}
+	
+	
+	
+	.li-img {
+		
+		
+		height: 275px;
+		position: relative;
+		background-size: 100% 100%;
+		background-size: cover;
+    background-position: center center;
+    top: 0;
+		
+	}
+	
+	.inside-li {
+		position: relative;
+		bottom: -65%;
+		color: #FFF;
+		
+		margin-left: 8px;
+		margin-right: 45px;
+	}
+	
+	
+	.inside-li h3 {
+		
+	margin: 4px 0;	
+	line-height: 1.1em;
+	font-size: 20px;
+	font-weight: 700;
+	}
+	
+	.sub-div {
+	background-color: rgba(255,68,34,.06);	
+	height: 96px;
+	padding-left: 20px;
+	margin: 4px 0;
+	color: #F42;
+		
+	}
+	
+	.sub-div h4 {
+		margin: 2px 0;
+		
+	}
+	.sub-div h5 {
+		text-transform: uppercase;
+		
+	}
+	
+	.inside-li span {
+	font-size: 11px;	
+		
+	}
+	
+	.thumb-1 {
+		background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Trello-hed-2.jpg);
+		
+	}
+	
+	.thumb-2 {
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/iPhone-X-fast-charge.jpg);	
+		
+	}
+	
+	
+	.thumb-3 {
+background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/autonomous.jpg);
+		
+	}
+	
+	
+	.thumb-4 {
+		
+	background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/xJaXOiV-1.jpg);
+}	
+	
+	
+	.thumb-5 {
+		background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/ecommerce-2140603_1920-1.jpg);
+	
+	}
+	
+	
+	.thumb-6 {
+		background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/pornhub-iphone-apple.jpg);
+		
+	}
+	.latest-thumb {
+		
+	    
+		background-position: center center;
+    background-size: cover;
+    height: 96px;
+    width: 96px;
+display: block;	
+float: right;
+		
+		
+	}
+	
+	.section-latest-section {
+	padding-top: 8px;	
+		
+	}
+	
+	#cat li li {
+	
+			padding: 6px 0 6px 20px;
+			position: relative;
+			border-bottom: 1px solid #EEE;
+			width: 100%;
+			
+		
+	}
+	
+	#cat li li:before {
+		
+	background-color: #F42;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 4px;
+    position: absolute;
+    top: 14px;
+    width: 4px;	
+		
+	}
+	
+	
+	/* last */
+	
+	.last {
+		
+	
+		
+	}
+	
+	.square.last {	
+		
+	min-height: 300px;	
+	}
+	
+	.square.last a {
+		
+	height: 201px;	
+	}
+	
+	.square.last h5 span {
+	text-decoration: line-through;
+	font-size: 1em;
+		
+	}
+	
+	
+	/* footer */
+	
+	
+	footer {
+	background: black;	
+
+	clear: both;
+	
+	padding-bottom: 100px;
+	}
+
+	#the-ul {
+		width: 80%;
+		margin: 30px auto;
+		
+	}
+	
+footer > ul > li {
+	width:33%;
+	display: block;
+	float: left;
+	min-height: 150px;
+	
+	font-size: 16px;
+    font-family: 'ARS Maquette','Helvetica Neue',Arial,sans-serif;
+    color: #f0f0f0;
+}	
+
+footer > ul > li  span {
+	
+	color: rgb(85, 85, 85);	
+	font-size: 0.9em;
+}
+
+	footer > ul > li  h2 {
+	
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaa;
+font-family: Shentox,sans-serif;
+line-height: 1.1;	
+		
+	}
+	
+	
+	footer > ul > li >ul li {
+		display: block;
+	}
+	
+	
+	
+#social {
+	max-width: 60%;
+	margin: 100px auto;
+	text-align: center;
+	
+}	
+	
+.foot-links {
+display: inline-block;	
+height: 40px;
+width: 40px;
+background: #333;
+    border-radius: 50%;
+	margin: 5px;
+	
+	
+}	
+
+.foot-links i {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1491314472970") no-repeat;
+	margin: 12px;
+}
+
+#foot-icon1 {
+	
+	background-position: -272px -272px;
+}
+
+
+#foot-icon2 {
+	
+	background-position: -976px -976px;
+}
+
+
+#foot-icon3 {
+	
+	background-position: -528px -528px;
+}
+
+
+#foot-icon4 {
+	
+	background-position: -1232px -1232px;
+}
+
+
+#foot-icon5 {
+	
+	background-position: -368px -368px;
+}
+
+
+#foot-icon6 {
+	
+	background-position: -624px -624px;
+}
+
+
+#foot-icon7 {
+	
+	background-position: -768px -768px;
+}
+	
+	
+#final-ul {
+margin: 20px auto;	
+	
+}	
+
+#final-ul li {
+	margin: 4px;
+}
+	
+/* MEDIA QUERIES */	
+	
+@media screen and (max-width: 1600px)  {
+	
+	#top {
+			
+	}
+	
+	#central {
+		max-width: 1192px;	
+	}
+	
+}	
+
+@media screen and (min-width: 1024px)   {
+	
+	#top {
+		
+		
+		
+	}
+	
+	#central {
+		
+	max-width: 1192px;	
+	}
+	
+	#big-logo, #date {
+		display: block;
+	}
+	
+.details .top-h3 {
+	font-size: 11px;
+}	
+	
+}
+
+
+@media screen and (max-width: 1024px)  {
+	
+	.square {
+		width: 33%;
+		
+	}
+	
+	.rect:last-child {
+		display:none;
+		
+	}
+	
+	
+	#cat> li {
+	width: 50%;	
+	}	
+	
+	
+	.details {
+	font-size: 0.8em;	
+	}
+	
+	.small .details {
+		font-size: 0.5em;
+	}
+	
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+#logo {
+display:block;
+	
+}
+
+#top {
+	
+height: 50vh;	
+}
+
+
+
+	}
+
+@media screen and (max-width: 768px)  {
+	
+	#logo {
+display: block;
+height: 48px;
+	
+}
+	
+#logo img {
+	height: 16px;
+	width: 66px;
+	margin: 16px auto;
+		
+}	
+
+#last-item, #second-last-item{
+	display: inline-block;
+}
+
+.header-rows:nth-child(2) {
+	display: none;
+	
+}
+
+.header-rows:last-child li {
+	display: none;
+	
+}
+
+#top {
+max-height: initial;
+height: auto;	
+	
+}
+
+.details {
+	font-size: 0.65em;
+}
+
+
+
+
+
+#smalls {
+	width: 100%;
+}
+	
+	#big, .small   {
+		width: 100%;
+		float: left;
+		height: 30vh;
+		
+	}
+	
+	.square a {
+	height: 72px;
+	width: 72px;
+float: left;
+margin-right: 14px;	
+		
+	}
+	.square {
+		
+		width: 100%;
+		float: left;
+		height: 72px;
+	}
+	
+	.small {
+		height: 30vh;
+		
+	}
+	
+	#cat> li {
+	width: 100%;
+	min-height: 620px;	
+	}	
+	
+	.rect {
+		
+	height: 256px;	
+	}
+	
+	
+.fund-details a {
+width: 100%;
+height: auto;	
+	
+}	
+	
+.square.last a {
+	height: 72px;
+}
+
+.square.last {
+		
+		width: 100%;
+		float: left;
+		min-height: 80px;
+	}
+	
+footer > ul > li {
+	width:45%;	
+}
+}
+
+
+@media screen and (max-width: 560px)  {
+footer > ul > li {
+	width:65%;	
+}	
+	
+	
+}
+
